@@ -1,0 +1,9 @@
+export type AvatarSize = 'sm' | 'md' | 'lg'
+
+export interface AvatarProps {
+  name:       string
+  src?:       string
+  size?:      AvatarSize
+  className?: string
+  style?:     React.CSSProperties
+}
