@@ -18,7 +18,7 @@
     "build":     "tsup",
     "dev":       "tsup --watch",
     "typecheck": "tsc --noEmit",
-    "lint":      "eslint src --ext .ts"
+    "lint":      "eslint src --ext .ts --no-eslintrc -c ../../.eslintrc.json"
   },
   "devDependencies": {
     "tsup":       "^8.0.0",
