@@ -23,7 +23,7 @@ export const MatrixRain = React.forwardRef<HTMLCanvasElement, MatrixRainProps>(
     const canvasRef = useRef<HTMLCanvasElement>(null)
     // Merge ref
     const setRef = (node: HTMLCanvasElement | null) => {
-      ;(canvasRef as React.MutableRefObject<HTMLCanvasElement | null>).current = node
+      (canvasRef as React.MutableRefObject<HTMLCanvasElement | null>).current = node
       if (typeof ref === 'function') ref(node)
       else if (ref) (ref as React.MutableRefObject<HTMLCanvasElement | null>).current = node
     }

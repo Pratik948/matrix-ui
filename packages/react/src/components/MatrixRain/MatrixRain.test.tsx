@@ -1,5 +1,5 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest'
-import { render, screen } from '@testing-library/react'
+import { render } from '@testing-library/react'
 import { MatrixRain } from './MatrixRain'
 
 // jsdom doesn't support canvas — mock it

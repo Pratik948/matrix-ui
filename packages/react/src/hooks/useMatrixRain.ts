@@ -98,6 +98,5 @@ export function useMatrixRain(
       cancelAnimationFrame(animId)
       observer.disconnect()
     }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [canvasRef, config.preset, config.speed, config.fontSize, config.headColor, config.brightColor, config.dimColor, config.fadeAlpha])
 }
