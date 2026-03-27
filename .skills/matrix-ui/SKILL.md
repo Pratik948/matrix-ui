@@ -311,11 +311,3 @@ pnpm storybook                         # component explorer on :6006
 | `exactOptionalPropertyTypes` error | Use conditional spreading — see constraints above |
 
 ---
-
-## Further reading
-
-- [USAGE.md](./USAGE.md) — practical usage patterns and full component examples
-- [README.md](./README.md) — complete API reference for all components and tokens
-- [.skills/components/SKILL.md](./.skills/components/SKILL.md) — how to build a new component
-- [.skills/tokens/SKILL.md](./.skills/tokens/SKILL.md) — how to add/modify design tokens
-- [docs/FIGMA_SPEC.md](./docs/FIGMA_SPEC.md) — visual spec and exact style values

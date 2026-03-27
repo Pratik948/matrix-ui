@@ -8,3 +8,4 @@ This repo has the following skill files. Read the relevant one before making cha
 | Building or editing a component | .skills/components/SKILL.md |
 | Writing or updating Storybook stories | .skills/storybook/SKILL.md |
 | Publishing a new version to npm | .skills/publishing/SKILL.md |
+| Using the matrix-ui with any app | .skills/matrix-ui/SKILL.md |
